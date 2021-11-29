@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.all-page{
+    background-color: #f9f8f6;
+    font: normal 16px 'Georgia' ;
+    width:900px;
+    margin:50px auto 50px auto;
+    border: 20px solid  #eeeeee;
+    border-radius: 5px;
+    color:#666666;
+}
+.header{
+    height: 150px;
+    width: auto;
+    /* border: 2px solid blue; */
+    border-radius: 5px;
+    padding: 0px 0px 10px 0px;
+    overflow: hidden;
+    display:flex;
+}
+
+.header-img {
+ height: 150px;
+ width: 1000px;
+}
+
+.breadcrumbs{
+    color:#ffffff;
+    height: 40px;
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 0px;
+    display: table-cell;
+    width: inherit;
+    vertical-align: middle;
+    background-color: #aeaca8; 
+}
+
+.breadcrumbs ul{
+padding-left: 0px;
+margin:0px;
+}
+
+.breadcrumbs li{
+margin: 0px;    
+margin-right: 10px;
+padding: 5px;
+display: inline-block;
+/* border: 2px solid orange; */
+}
+
+.content-box{
+    margin-top:10px; 
+    display: flex;
+}
+
+.left-side{
+    width: 680px;
+    /* border: solid 2px purple; */
+    margin-right: 20px;    
+}
+
+.section{
+    display: flex;
+    padding: 10px;
+}
+
+.section img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.info-section {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.right-side{
+border-left: solid 2px #eeeeee;
+width:300px;
+padding: 0px;
+padding-top: 10px;
+margin-right: 10px;
+}
+
+.popular ul{
+    list-style-type: none;
+    text-align:left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.popular li{
+    padding: 10px;
+    color: #de6581;
+}
+
+.footer {
+    display: table-cell;
+    vertical-align: middle;
+    height: 30px;
+    width: inherit;
+    border-radius: 5px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px 0px 0px 10px;  
+    background-color: #aeaca8;  
+    color:#ffffff
+}
+
+.pop-title{
+ color: #de6581;
+ font-size: 18px;
+ font-weight: 500;
+ padding-bottom: 5px;   
+}
+
+.recipe-category{
+    color:#de6581;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.recipe-name{
+    font-size:18px;
+
+}
+
+.info-text{
+    font-size: 14px;
+}
+
+/* /////////////////////////////////////*/
+
+.breadcrumbs li a {
+text-decoration: none;
+color:#ffffff;  
+padding: 5px;
+border-radius: 5px;
+}
+
+.breadcrumbs li a:hover{
+    color: black;
+    background-color: #efefef
+}
+
+.recipe-category a{
+    color:#de6581;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.recipe-category a:hover{
+    opacity: 0.7;
+}
+.recipe-name{
+    color:black;
+}
+
+.pop-title{
+    padding-left: 10px;
+    border-bottom:solid 1px #eeeeee;; 
+}
+
+.popular ul{
+padding-left: 10px;    
+}
+.popular li{
+    padding-left: 0px;
+    border-bottom:solid 1px #eeeeee;; 
+}
+.popular li a{
+color: #de6581;
+text-decoration: none;
+padding: 10px;
+width:max-content;
+border-radius: 5px;
+}
+
+.popular li a:hover{
+background-color: #efefef;
+}
+
+/* ///////////////////////////////////////////////////////// */
+.search{
+    display: inline-block;
+height: 20px;
+width:150px;
+border: 2px solid #eeeeee;
+border-radius: 5px;
+font-family: inherit;
+padding: 0px;
+margin: 0px;
+margin-left: 220px;
+
+}
+.submit-button{
+    height: 25px;
+    width: 15px;
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ***************************************** */
+.drinks._hide{
+ display:none;
+}
+.deserts._hide{
+    display:none
+}
+
+.menu-list._active{
+    display: block;
+}
+.menu-list {
+margin:20px;
+margin-top:10px;
+
+
+}
+.input-menu{
+    border: 2px solid #e2d9d9;
+    border-radius: 5px;
+    height: 150px;
+    margin-bottom:5px;
+    width: 550px;
+    
+}
+
+.review-submit{
+    height: 30px;
+    width:100px;
+    border: 2px solid #e2d9d9;;
+    border-radius: 5px;
+    margin-top: 10px;
+    display:block;
+    font-family: inherit;
+
+}
+
+.contacts-list._active{
+    display:block;
+}
+
+.contacts-list{
+    margin: 20px;
+    margin-top:10px;
+
+}
+.adress{
+      height: 400px;
+      margin-bottom:10px;
+}
+
+.breadcrumbs  a.current{
+    color:black;
+}
