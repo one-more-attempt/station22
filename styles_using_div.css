@@ -130,9 +130,7 @@ margin-right: 10px;
 
 }
 
-.info-text{
-    font-size: 14px;
-}
+
 
 /* /////////////////////////////////////*/
 
@@ -195,7 +193,7 @@ border-radius: 5px;
 font-family: inherit;
 padding: 0px;
 margin: 0px;
-margin-left: 220px;
+margin-left: 200px;
 
 }
 .submit-button{
@@ -260,4 +258,8 @@ margin-top:10px;
 
 .breadcrumbs  a.current{
     color:black;
+}
+
+.info-text{
+    font-size: 12px;
 }
